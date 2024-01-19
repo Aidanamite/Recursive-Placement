@@ -1,0 +1,38 @@
+{
+  "name": "Recursive Placement",
+  "author": "Aidanamite",
+  "description": "Allows you to place a line of objects",
+  "version": "1.3.5",
+  "license": "GNU AGPLv3",
+  "icon": "icon.png",
+  "banner": "banner.jpg",
+  "gameVersion": "1.0",
+  "requiredByAllPlayers": false,
+  "updateUrl": "https://www.raftmodding.com/api/v1/mods/recursive-placement/version.txt",
+  "isModPermanent": false,
+  "excludedFiles": [],
+  "modSettings": [
+    {
+      "type": "keybind",
+      "name": "place",
+      "text": "Build Iteratively",
+      "access": "both",
+      "mainDefault": "b"
+    },
+    {
+      "type": "keybind",
+      "name": "lock",
+      "text": "Lock To Looking",
+      "access": "both",
+      "mainDefault": "j"
+    },
+    {
+      "type": "input",
+      "name": "offset",
+      "text": "Recursive Distance Offset",
+      "access": "both",
+      "default": "0",
+      "mode": "DecimalNumber"
+    }
+  ]
+}
